@@ -16,7 +16,7 @@ struct Product
 	{
 		price = 0;
 	}
-	// Конструктор с параметрами
+	// Конструктор с параметрамии
 	Product(string productName, int price)
 	{
 		this->price = price;
