@@ -2,6 +2,8 @@
 #include <Windows.h>
 #include <string>
 
+#include "example.cpp"
+
 using namespace std;
 
 struct Product
@@ -23,3 +25,8 @@ struct Product
 		this->productName = productName;
 	}
 };
+
+int main()
+{
+	return 0;
+}
